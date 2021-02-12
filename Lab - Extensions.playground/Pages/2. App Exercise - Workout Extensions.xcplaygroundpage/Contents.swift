@@ -13,7 +13,7 @@ struct Workout {
 
 extension Workout: CustomStringConvertible {
     var description: String {
-        return "Distance: \(distance) \nTime: \(time)\nAverageHR: \(averageHR)"
+        return "-Distance: \(distance) \n-Time: \(time)\n-AverageHR: \(averageHR) \n"
     }
 }
 /*:
@@ -35,10 +35,11 @@ extension Workout {
 }
 
 let myWorkout = Workout(distance: 5, time: 20, averageHR: 80)
-print(myWorkout)
+print("Regular Workout: \n\(myWorkout)")
 
 let myHarderWorkout = myWorkout.harderWorkout()
-print(myHarderWorkout)
+print("Harder Workout: \n\(myHarderWorkout)")
+print("Harder Workout's speed: \n\(myHarderWorkout.speed)")
 /*:
 
  _Copyright © 2018 Apple Inc._
