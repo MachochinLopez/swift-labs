@@ -30,12 +30,17 @@ class ViewController: UIViewController {
         } else {
             let myColor = UIColor.red
             
+            let translateDown = CGAffineTransform(translationX: 0, y: -4)
             
-            
-            UIView.animate(withDuration: 1, animations: {
+            UIView.animate(withDuration: 0.25, animations: {
                 self.emailField.layer.borderColor = myColor.cgColor
                 self.emailField.layer.borderWidth = 1.0
-            })
+                self.emailField.transform = translateDown
+            }) {(_) in
+                UIView.animate(withDuration: 0.25, animations: {
+                    self.emailField.transform = CGAffineTransform.identity
+                })
+            }
         }
     }
 }
