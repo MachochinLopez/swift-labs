@@ -12,9 +12,10 @@
 		0DC858B225D707D5002D7316 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC858B125D707D5002D7316 /* ContentView.swift */; };
 		0DC858B425D707D7002D7316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC858B325D707D7002D7316 /* Assets.xcassets */; };
 		0DC858B725D707D7002D7316 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC858B625D707D7002D7316 /* Preview Assets.xcassets */; };
-		0DC858BA25D707D7002D7316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC858B825D707D7002D7316 /* LaunchScreen.storyboard */; };
+		0DC858BA25D707D7002D7316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC858B825D707D7002D7316 /* Main.storyboard */; };
 		0DC858C525D707D7002D7316 /* ContestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC858C425D707D7002D7316 /* ContestTests.swift */; };
 		0DC858D025D707D7002D7316 /* ContestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC858CF25D707D7002D7316 /* ContestUITests.swift */; };
+		0DC858DE25D71663002D7316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC858DD25D71663002D7316 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,7 @@
 		0DC858B125D707D5002D7316 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0DC858B325D707D7002D7316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DC858B625D707D7002D7316 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0DC858B925D707D7002D7316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DC858B925D707D7002D7316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DC858BB25D707D7002D7316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DC858C025D707D7002D7316 /* ContestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC858C425D707D7002D7316 /* ContestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestTests.swift; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		0DC858CB25D707D7002D7316 /* ContestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC858CF25D707D7002D7316 /* ContestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestUITests.swift; sourceTree = "<group>"; };
 		0DC858D125D707D7002D7316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC858DD25D71663002D7316 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +105,10 @@
 				0DC858AF25D707D5002D7316 /* SceneDelegate.swift */,
 				0DC858B125D707D5002D7316 /* ContentView.swift */,
 				0DC858B325D707D7002D7316 /* Assets.xcassets */,
-				0DC858B825D707D7002D7316 /* LaunchScreen.storyboard */,
+				0DC858B825D707D7002D7316 /* Main.storyboard */,
 				0DC858BB25D707D7002D7316 /* Info.plist */,
 				0DC858B525D707D7002D7316 /* Preview Content */,
+				0DC858DD25D71663002D7316 /* LaunchScreen.storyboard */,
 			);
 			path = Contest;
 			sourceTree = "<group>";
@@ -240,7 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DC858BA25D707D7002D7316 /* LaunchScreen.storyboard in Resources */,
+				0DC858BA25D707D7002D7316 /* Main.storyboard in Resources */,
+				0DC858DE25D71663002D7316 /* LaunchScreen.storyboard in Resources */,
 				0DC858B725D707D7002D7316 /* Preview Assets.xcassets in Resources */,
 				0DC858B425D707D7002D7316 /* Assets.xcassets in Resources */,
 			);
@@ -305,12 +309,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0DC858B825D707D7002D7316 /* LaunchScreen.storyboard */ = {
+		0DC858B825D707D7002D7316 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0DC858B925D707D7002D7316 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -434,8 +438,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Contest/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Contest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -444,6 +449,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = machochin.Contest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,8 +459,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Contest/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Contest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -463,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = machochin.Contest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
